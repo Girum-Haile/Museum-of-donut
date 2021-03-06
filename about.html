@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="about.css">
+</head>
+
+<body>
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+        <a href="index.html" class="navbar-brand mx-4">DONUT</a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navLinks"
+            aria-label="toggle-navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end mx-4" id="navLinks">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a href="gallery.html" class="nav-link">GALLERY</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="  row justify-content-center">
+            <div class=" dude col-8 text-center align-items-center p-5 m-5">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos laborum iure eligendi dolorum ullam in
+                    sapiente velit illum consectetur! Labore hic, nemo veritatis quisquam suscipit mollitia distinctio
+                    saepe eveniet in.
+                    Provident dolor quae eligendi nisi soluta saepe similique explicabo excepturi temporibus, dolore
+                    vero magni. Ad harum asperiores aut et autem sed officia quis unde? Ratione ipsam odio itaque eos
+                    reiciendis!
+                    Vero voluptate exercitationem facere porro aperiam, reiciendis laudantium assumenda, debitis et
+                    facilis repellendus dolorum numquam ut nam error! Aperiam sint animi nesciunt suscipit officia vel
+                    iure cum commodi voluptate laborum.
+                    Aut cupiditate molestias, cum voluptatum nemo nam sunt tenetur soluta quos in minus odio minima.
+                    Repudiandae quis fugiat natus, fugit harum praesentium odit illum ullam libero recusandae aliquid,
+                    ipsum vel.
+                    Illum eius soluta excepturi, consequatur ex nisi atque tempore repellat dolorem similique, rerum
+                    laboriosam quod cupiditate error officiis reiciendis enim deleniti, animi odio eveniet a facilis
+                    alias harum? Voluptatibus, odit.</p>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+<script>
+    $(function () {
+        $(document).scroll(function () {
+            var $nav = $("#mainNavbar");
+            $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        });
+    });
+</script>
+
+
+</body>
+
+</html>
